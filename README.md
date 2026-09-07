@@ -35,15 +35,13 @@ bonezegei --version
 ### 4. Install the Socket Library
     Run:
     bzg install socket
-
-###  Run the Server
+####  Run the Server
     From the project folder, run:
         bonezegei src/http.bzg
-
 The server will run at:
     http://localhost:8080/
 
-#### Usage
+### Usage
 
 ##### Home Page
     Open:
@@ -60,14 +58,13 @@ This displays information about the BSL HTTP Server project.
       http://localhost:8080/anything
 This displays the custom 404 Not Found page.
 
-#### Screenshots
-##### Home Page
-##### About Page
-##### 404 Page
+### Screenshots
+#### 1. Home Page
+#### 2. About Page
+#### 3. 404 Page
+#### 4. Terminal
 
-#### Terminal
-
-##### Project Structure
+### Project Structure
     my-bsl-http-server/
     ├── .gitattributes
     ├── LICENSE
