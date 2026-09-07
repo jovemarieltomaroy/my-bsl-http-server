@@ -41,7 +41,12 @@ while (1) {
         var HTTP = "";
 
  
-        if (data.indexOf("GET / ") >= 0 || data.indexOf("GET /HTTP") >= 0) {
+        if (data[0] == "G" &&
+            data[1] == "E" &&
+            data[2] == "T" &&
+            data[3] == " " &&
+            data[4] == "/" &&
+            data[5] == " ") {
 
             BODY = "<!DOCTYPE html><html><head><title>BSL Server - Home</title></head>"
             + "<body style='font-family:sans-serif;'>"
@@ -55,7 +60,19 @@ while (1) {
             + "Connection: close\r\n\r\n";
 
 
-        } else if (data.indexOf("GET /about") >= 0) {
+        } else if (
+            data[0] == "G" &&
+            data[1] == "E" &&
+            data[2] == "T" &&
+            data[3] == " " &&
+            data[4] == "/" &&
+            data[5] == "a" &&
+            data[6] == "b" &&
+            data[7] == "o" &&
+            data[8] == "u" &&
+            data[9] == "t" &&
+            data[10] == " "
+        ) {
 
             BODY = "<!DOCTYPE html><html><head><title>BSL Server - About</title></head>"
             + "<body style='font-family:sans-serif;'>"

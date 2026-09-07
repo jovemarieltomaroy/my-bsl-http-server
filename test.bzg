@@ -1,0 +1,4 @@
+var x = "GET / HTTP/1.1";
+print(x[0]);
+print(x[1]);
+print(x[2]);
