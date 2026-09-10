@@ -77,17 +77,20 @@ This displays the custom 404 Not Found page.
 
 
 ### Project Structure
+
+```text
 my-bsl-http-server/
-    ├── .gitattributes
-    ├── LICENSE
-    ├── README.md
-    ├── src/
-    │   └── http.bzg
-    └── documentation/
-        ├── home.png
-        ├── about.png
-        ├── 404.png
-        └── terminal.png
+├── .gitattributes
+├── LICENSE
+├── README.md
+├── src/
+│   └── http.bzg
+└── documentation/
+    ├── home.png
+    ├── about.png
+    ├── 404.png
+    └── terminal.png
+```
 
 #### License
 This project uses the MIT License.
