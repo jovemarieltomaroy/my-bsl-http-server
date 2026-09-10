@@ -61,11 +61,17 @@ This displays information about the BSL HTTP Server project.
 This displays the custom 404 Not Found page.
 
 #### Screenshots
-##### Home Page
-##### About Page
-##### 404 Page
+### Home Page
+![Home Page](documentation/home.png)
 
-#### Terminal
+### About Page
+![About Page](documentation/about.png)
+
+### 404 Page
+![404 Page](documentation/404.png)
+
+### Terminal
+![Terminal Output](documentation/terminal.png)
 
 ##### Project Structure
     my-bsl-http-server/
