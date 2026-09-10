@@ -1,7 +1,6 @@
 # BSL HTTP Server
 
 ## Project Description
-
 This project is a simple HTTP web server built using the Bonezegei Scripting Language (BSL) and the BSL Socket Library.
 
 The server listens on port 8080 and handles different HTTP routes. It provides a home page, an about page, and a custom 404 page for routes that do not exist.
@@ -35,15 +34,13 @@ bonezegei --version
 ### 4. Install the Socket Library
     Run:
     bzg install socket
-
-###  Run the Server
+####  Run the Server
     From the project folder, run:
         bonezegei src/http.bzg
-
 The server will run at:
     http://localhost:8080/
 
-#### Usage
+### Usage
 
 ##### Home Page
     Open:
@@ -60,21 +57,27 @@ This displays information about the BSL HTTP Server project.
       http://localhost:8080/anything
 This displays the custom 404 Not Found page.
 
-#### Screenshots
+## Screenshots
+
 ### Home Page
+
 ![Home Page](documentation/home.png)
 
 ### About Page
+
 ![About Page](documentation/about.png)
 
 ### 404 Page
+
 ![404 Page](documentation/404.png)
 
 ### Terminal
+
 ![Terminal Output](documentation/terminal.png)
 
-##### Project Structure
-    my-bsl-http-server/
+
+### Project Structure
+my-bsl-http-server/
     ├── .gitattributes
     ├── LICENSE
     ├── README.md
