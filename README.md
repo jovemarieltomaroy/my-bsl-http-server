@@ -27,7 +27,7 @@ Install the Bonezegei interpreter for Windows.
 
 To verify the installation, run:
 
-``bash
+```bash
 bonezegei --version 
 
 
