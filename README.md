@@ -27,8 +27,9 @@ Install the Bonezegei interpreter for Windows.
 
 To verify the installation, run:
 
-``bash
-bonezegei --version 
+```bash
+bonezegei --version
+```
 
 
 ### 4. Install the Socket Library
